@@ -1,87 +1,83 @@
 =========================================
-ReStructuredText (rst): plain text markup
+Provar arxiu amb reStructuredText
 =========================================
 
-.. sectnum::
+.. Secció::
 
-.. contents:: The tiny table of contents
+.. Continguts:: Es una petita prova de reStructuredText
 
-What is reStructuredText?
+Es una prova de reStructuredText?
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-An easy-to-read, what-you-see-is-what-you-get plaintext markup syntax
-and parser system, abbreviated *rst*. In other words, using a simple
-text editor, documents can be created which
+De totes formes una prova amb *arial* de un texte amb 
+**bold** de totes formes no agrade com funcione.
 
-- are easy to read in text editor and
-- can be *automatically* converted to
+- es mostra breument el metode d'escriptura
+- es pot mostrar *automatically* 
  
   - html and 
-  - latex (and therefore pdf)
+  - pdf
 
-What is it good for?
+Esta dissenyat correctament?
 ~~~~~~~~~~~~~~~~~~~~
 
-reStructuredText can be used, for example, to
+reStructuredText 
 
-- write technical documentation (so that it can easily be offered as a
-  pdf file or a web page)
+- podem escriure documentació tècnica
 
-- create html webpages without knowing html 
+=========================================
+Provar arxiu amb reStructuredText
+=========================================
 
-- to document source code
+.. Secció::
 
-Show me some formatting examples
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Continguts:: Es una petita prova de reStructuredText
 
-You can highlight text in *italics* or, to provide even more emphasis
-in **bold**. Often, when describing computer code, we like to use a
-``fixed space font`` to quote code snippets.
+Es una prova de reStructuredText?
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We can also include footnotes [1]_. We could include source code files
-(by specifying their name) which is useful when documenting code. We
-can also copy source code verbatim (i.e. include it in the rst
-document) like this::
+De totes formes una prova amb *arial* de un texte amb 
+**bold** de totes formes no agrade com funcione.
 
-  int main ( int argc, char *argv[] ) {
-      printf("Hello World\n");
-      return 0;
-  }
+- es mostra breument el metode d'escriptura
+- es pot mostrar *automatically* 
+ 
+  - html and 
+  - pdf
 
-We have already seen at itemised list in section `What is it good
-for?`_. Enumerated list and descriptive lists are supported as
-well. It provides very good support for including html-links in a
-variety of ways. Any section and subsections defined can be linked to,
-as well.
+Esta dissenyat correctament?
+~~~~~~~~~~~~~~~~~~~~
 
+reStructuredText 
 
-Where can I learn more?
-~~~~~~~~~~~~~~~~~~~~~~~
+- podem escriure documentació tècnica
 
-reStructuredText is described at
-http://docutils.sourceforge.net/rst.html. We provide some geeky small
-print in this footnote [2]_.
+=========================================
+Provar arxiu amb reStructuredText
+=========================================
 
+.. Secció::
 
-Show me some more stuff, please
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. Continguts:: Es una petita prova de reStructuredText
 
-We can also include figures:
+Es una prova de reStructuredText?
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. figure:: image.png
-   :width: 300pt
+De totes formes una prova amb *arial* de un texte amb 
+**bold** de totes formes no agrade com funcione.
 
+- es mostra breument el metode d'escriptura
+- es pot mostrar *automatically* 
+ 
+  - html and 
+  - pdf
 
-   The magnetisation in a small ferromagnetic disk. The diametre is of the order of 120 nanometers and the material is Ni20Fe80. Png is a file format that is both acceptable for html pages as well as for (pdf)latex.
+Esta dissenyat correctament?
+~~~~~~~~~~~~~~~~~~~~
 
----------------------------------------------------------------------------
+reStructuredText 
 
-.. [1] although there isn't much point of using a footnote here.
+- podem escriure documentació tècnica
 
-.. [2] Random facts: 
-
-  - Emacs provides an rst mode 
-  - when converting rst to html, a style sheet can be provided (there is a similar feature for latex)
-  - rst can also be converted into XML
-  - the recommended file extension for rst is ``.txt``
-
+https://github.com/xpregi/treballs.git
+M8-UF4-DAW2
