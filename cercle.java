@@ -1,68 +1,76 @@
-public class Cercle{
+package cercle;
 
- private float x;
+public class Cercle<New> {
 
- private float y;
+	 private double x;
 
- Cercle(float xx, float yy)
+	 private double y;
 
-  {
+	 Cercle(double xx, double yy)
 
-     x=xx;
+	  {
 
-     y=yy;     
+	     x=xx;
 
-  }
+	     y=yy;     
 
-public Cercle(){
+	  }
 
-    this.x=0.0;
-    this.y=0.0;
-    
-}
+	public Cercle(){
+
+	    this.x=0;
+	    this.y=0;
+	    
+	}
 
 
-public Cercle(Cercle circum){
-    this.x=circum.x;
-    this.y=cirsum.y;
-}
+	public Cercle(Cercle circum){
+	    this.x=circum.x;
+	    this.y=circum.y;
+	}
 
- public static void main(String[] args) {
-        // TODO code application logic here
-      
+	 public static void main(String[] args) {
+	        // TODO code application logic here
+	      
+			Cercle c = new Cercle(3.0,5.0);
+	        // System.out.println(o);
+	        System.out.println(c);
+	       
+	    }
+
+	
+	 @Override
+	 public String toString() {
+	 	return "Cercle [x=" + x + ", y=" + y +  "]";
+	 } 
+     private boolean iguals=false;
      
-        Cercle c = New Cercle();
-        // System.out.println(o);
-        System.out.println(c);
-       
-    }
+	 public Boolean equals(Cercle c)
+	   {
+	      if (x == c.getX()) 
+	    	  iguals=true;
+	      if (y == c.getY())
+	          iguals=true;
+		return iguals;
+	   }
+	 
+	
+	 
+	 public double getX(){
+	          return x;
+	    }
+	    
+	 public void setX(double x){
+	           this.x=x;
+	    }
 
-@override
-public String toString(){
-return  "La funcio toString: "+x+" i: "+y;
+	 public double getY(){
+	          return y;
+	    }
+	    
+	 public void setY(double y){
+	           this.y=y;
+	    }
+	    
 }
-
-public Boolean equals(nom n){
-Cercle c = (Cercle)n;
-
-return c.getX().equals(this.getX());
-
-
-}
-
- public Double getX(){
-          return x;
-    }
-    
-    public void setX(Double x){
-           this.x=x;
-    }
-
-public Double getY(){
-          return y;
-    }
-    
-    public void setY(Double y){
-           this.y=y;
-    }
 
